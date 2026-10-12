@@ -53,6 +53,8 @@ body {
   padding: 32px 24px;
   width: 280px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .plan--featured {
@@ -98,6 +100,8 @@ body {
 
 .btn {
   display: inline-block;
+  align-self: center;
+  margin-top: auto;
   padding: 12px 28px;
   border-radius: 8px;
   background: #2563eb;
